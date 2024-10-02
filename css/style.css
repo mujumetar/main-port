@@ -20,6 +20,13 @@ body {
   background-color: #191a1d !important;
 }
 
+.bg-main {
+  background-color: #191a1d !important;
+  border-radius: 10px;
+  background: linear-gradient(145deg, #17171a, #1b1c1f);
+  box-shadow: 10px 10px 54px #0a0a0c, -10px -10px 54px #282a2e;
+}
+
 canvas {
   display: block;
 }
@@ -225,21 +232,19 @@ a .btn {
 .skill {
   border-radius: 10px;
   background: linear-gradient(145deg, #17171a, #1b1c1f);
-  box-shadow:  10px 10px 54px #0a0a0c,
-               -10px -10px 54px #282a2e;
-               
+  box-shadow: 10px 10px 54px #0a0a0c, -10px -10px 54px #282a2e;
 }
 
 .skill:hover {
--webkit-box-shadow:0px 0px 15px 2px rgba(45,255,196,0.35);
--moz-box-shadow: 0px 0px 15px 2px rgba(45,255,196,0.35);
-box-shadow: 0px 0px 15px 2px rgba(45,255,196,0.35);
+  -webkit-box-shadow: 0px 0px 15px 2px rgba(45, 255, 196, 0.35);
+  -moz-box-shadow: 0px 0px 15px 2px rgba(45, 255, 196, 0.35);
+  box-shadow: 0px 0px 15px 2px rgba(45, 255, 196, 0.35);
 }
 
 .achievements:hover {
--webkit-box-shadow:0px 0px 15px 2px rgba(45,255,196,0.35);
--moz-box-shadow: 0px 0px 15px 2px rgba(45,255,196,0.35);
-box-shadow: 0px 0px 15px 2px rgba(45,255,196,0.35);
+  -webkit-box-shadow: 0px 0px 15px 2px rgba(45, 255, 196, 0.35);
+  -moz-box-shadow: 0px 0px 15px 2px rgba(45, 255, 196, 0.35);
+  box-shadow: 0px 0px 15px 2px rgba(45, 255, 196, 0.35);
 }
 
 .ff-poppins {
@@ -252,4 +257,23 @@ box-shadow: 0px 0px 15px 2px rgba(45,255,196,0.35);
 
 .mt-6 {
   margin-top: 100px;
+}
+
+.anchor-text {
+  color: #8aa7ad;
+  margin: 5px 0px;
+}
+
+.anchor-hover:hover {
+  color: #81c408;
+}
+
+.anchor-text > a {
+  text-decoration: none;
+  color: #8aa7ad;
+}
+
+.anchor-text > a:hover {
+  text-decoration: none;
+  color: #81c408;
 }
