@@ -1,0 +1,255 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+  color: white;
+}
+
+.box {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+.box > img {
+  width: 80%;
+}
+
+body {
+  height: 100%;
+  background-color: #191a1d !important;
+}
+
+canvas {
+  display: block;
+}
+
+/* ---- particles.js container ---- */
+
+#particles-js {
+  position: absolute;
+  top: 0;
+  height: 100vh;
+  background-color: transparent;
+  background-image: url("");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 100%;
+}
+
+/* ---- stats.js ---- */
+
+.js-count-particles {
+  font-size: 1.1em;
+}
+
+#stats,
+.count-particles {
+  -webkit-user-select: none;
+}
+
+#stats {
+  border-radius: 3px 3px 0 0;
+  overflow: hidden;
+}
+
+.count-particles {
+  border-radius: 0 0 3px 3px;
+}
+
+.container-fluid-x {
+  background: #191a1d;
+}
+
+.navbar {
+  z-index: 999;
+}
+
+.navbar-brand {
+  font-family: monospace;
+}
+
+.zoom {
+  animation: zoom 3s linear;
+  -webkit-animation: zoom 3s linear;
+}
+
+@keyframes zoom {
+  from {
+    scale: 0.7;
+  }
+  to {
+    scale: 1.2;
+  }
+}
+
+.poppins {
+  font-family: poppins;
+}
+
+.banner {
+  display: block;
+  min-height: 200px;
+  width: 100%;
+  position: relative;
+}
+.typed_wrap {
+  display: block;
+
+  width: 100%;
+  height: auto;
+  padding: 30px;
+
+  /*centers it in the .banner*/
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.typed_wrap h1 {
+  display: inline;
+}
+
+/*Add custom cursor so it auto inherits font styles*/
+.typed::after {
+  content: "|";
+  display: inline;
+  -webkit-animation: blink 0.7s infinite;
+  -moz-animation: blink 0.7s infinite;
+  animation: blink 0.7s infinite;
+}
+
+/*Removes cursor that comes with typed.js*/
+.typed-cursor {
+  opacity: 0;
+  display: none;
+}
+/*Custom cursor animation*/
+@keyframes blink {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@-webkit-keyframes blink {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@-moz-keyframes blink {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.btns {
+  display: block;
+  width: 400px;
+  margin: 0;
+  padding: 30px 0 0 30px;
+}
+.btns a {
+  display: inline-block;
+  margin-left: 5px;
+}
+.btns a:first-child {
+  margin-left: 0;
+}
+.btn {
+  font-family: sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  color: #ecf0f1;
+  text-decoration: none;
+}
+a .btn {
+  cursor: pointer;
+  border: 1.5px solid #ecf0f1;
+  border-radius: 5px;
+  display: inline-block;
+  padding: 10px;
+  list-style-type: none;
+  transition: all 0.3s;
+}
+
+.btn:hover {
+  background: #ecf0f1;
+  color: #34495e;
+}
+
+.diffrent {
+  mix-blend-mode: difference;
+}
+
+.fadein {
+  animation: fadein 1s ease-in-out;
+  -webkit-animation: fadein 1s ease-in-out;
+}
+
+@keyframes fadein {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+.fs-500 {
+  font-size: 100px;
+}
+
+.skill {
+  border-radius: 10px;
+  background: linear-gradient(145deg, #17171a, #1b1c1f);
+  box-shadow:  10px 10px 54px #0a0a0c,
+               -10px -10px 54px #282a2e;
+               
+}
+
+.skill:hover {
+-webkit-box-shadow:0px 0px 15px 2px rgba(45,255,196,0.35);
+-moz-box-shadow: 0px 0px 15px 2px rgba(45,255,196,0.35);
+box-shadow: 0px 0px 15px 2px rgba(45,255,196,0.35);
+}
+
+.achievements:hover {
+-webkit-box-shadow:0px 0px 15px 2px rgba(45,255,196,0.35);
+-moz-box-shadow: 0px 0px 15px 2px rgba(45,255,196,0.35);
+box-shadow: 0px 0px 15px 2px rgba(45,255,196,0.35);
+}
+
+.ff-poppins {
+  font-family: poppins;
+}
+
+.h100vh {
+  height: 100vh;
+}
+
+.mt-6 {
+  margin-top: 100px;
+}
